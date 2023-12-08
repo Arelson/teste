@@ -1,0 +1,47 @@
+Inicializa o git na pasta
+-git init 
+
+inicia as configuração do git
+-git config * +:
+    Niveis de atuação da configuração
+    * --system = afeta todos os compuatdores
+    * --global = afeta para mim e todos os meus projetos
+    * --local = afeta apenas no projeto atuas e usuarios do projeto
+
+    Configuração do usuario
+    + user.name = registra ou altera o nome de usuario
+    + user.email = registra o e-mail para associar a conta
+    + -l = acessa todas as informaçoes padrao e as registradas
+    + core.editor (nome do editor) = altera o editor de texto para o uso do git
+
+Adiciona o arquivo desejado na are de stage
+-git add * (nome do arquivo):
+    Parametros
+    * . = Adiciona todos os arquivos e alterações na staged
+
+Consulta o estado dos arquivos
+-git status
+
+Torna rastreavel para o git os arquivos
+-git commit *:
+    Parametros
+    * -m 'texto' = adiciona uma mensagem no commit
+    * -am 'texto' = faz o commit em arquivos que ja estao rastreaveis pulando o processo de add no stage (a = add e m = mensagem)
+
+Comando que consulta o historico de mudanças
+-git log
+
+Comando que acessa versoes anteriores do projeto
+-git checkout (Codigo do commit)
+
+Comando que traz o projeto do github para a maquina
+-git clone (link do repositorio)
+
+comando que lista os arquivos do projeto
+-ls
+
+Comando que envia arquivos para o github pois so o commit(so faz local) não adianta
+-git push
+
+comando que traz os arquivos de github para a maquina do usuario
+-git pull
