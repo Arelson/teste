@@ -30,7 +30,8 @@ Torna rastreavel para o git os arquivos
 -git commit comando 'texto XXX'
     XXX
     - #n = referencia a issues correspondente ao numero
-    - closes #n = fecha a issues referente ao numero
+    - closes #n° = fecha a issues referente ao numero
+    - fixes #n° = fecha a issues referente ao numero dizenco que o erro apontado foi corigito
 
 Comando que consulta o historico de mudanças
 -git log *
