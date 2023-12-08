@@ -29,10 +29,16 @@ Torna rastreavel para o git os arquivos
     * -am 'texto' = faz o commit em arquivos que ja estao rastreaveis pulando o processo de add no stage (a = add e m = mensagem)
 
 Comando que consulta o historico de mudanças
--git log
+-git log *
+	flags:
+	* --graph = mostra a linha do tempo dos commits do projeto
+	* --oneline = simlifica o graph(pode usar varias flags no msm coamndo)
 
 Comando que acessa versoes anteriores do projeto
 -git checkout (Codigo do commit)
+-git checkout * (nome da ramificação) = troca a linha do tempo do projto em que se trabalha
+	comandos:
+	* -b = cria uma branch nova e automaticamente entra nela
 
 Comando que traz o projeto do github para a maquina
 -git clone (link do repositorio)
@@ -45,3 +51,12 @@ Comando que envia arquivos para o github pois so o commit(so faz local) não adi
 
 comando que traz os arquivos de github para a maquina do usuario
 -git pull
+
+comando que ramimifica a linha principla do projeto
+-git branch * (nome da ramificação)
+	comando:
+	* -d = apaga a branch criada
+-git branch  = lista as ramificaçoes criadas
+
+Comando que uni a ramificação na linha principal do projeto(Pra juntar primeiramente é necessario esta na main(linha principal))
+-git merge (nome da ramificação)
