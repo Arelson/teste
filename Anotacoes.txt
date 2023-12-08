@@ -27,6 +27,10 @@ Torna rastreavel para o git os arquivos
     Parametros
     * -m 'texto' = adiciona uma mensagem no commit
     * -am 'texto' = faz o commit em arquivos que ja estao rastreaveis pulando o processo de add no stage (a = add e m = mensagem)
+-git commit comando 'texto XXX'
+    XXX
+    - #n = referencia a issues correspondente ao numero
+    - closes #n = fecha a issues referente ao numero
 
 Comando que consulta o historico de mudanças
 -git log *
