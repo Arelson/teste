@@ -62,6 +62,7 @@ comando que ramimifica a linha principla do projeto
 -git branch * (nome da ramificação)
 	comando:
 	* -d = apaga a branch criada
+    * -a = lista todas as branchs e as remotas
 -git branch  = lista as ramificaçoes criadas
 
 Comando que adiciona a ramificação na linha principal do projeto(Pra juntar primeiramente é necessario esta na main(linha principal))
