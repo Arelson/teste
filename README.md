@@ -1,5 +1,7 @@
+---
 permalink: /README/
 title: Teste das funções do gitHib
+---
 
 ## introdução
 uma pequena apresentaçõa do projeto
