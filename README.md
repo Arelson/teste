@@ -1,7 +1,4 @@
----
-permalink: /README/
-title: Teste das funções do gitHib
----
+# Usando o github
 
 ## introdução
 uma pequena apresentaçõa do projeto
