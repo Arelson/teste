@@ -16,6 +16,7 @@
 
 ## Adiciona o arquivo desejado na are de stage
 - git add (nome do arquivo):
+
 ### Parametros
 * . = Adiciona todos os arquivos e alterações na staged
 
@@ -69,8 +70,8 @@
 
 ## comando similar ao merge porem faz com que não aconteça o commit do merge recursivo e reescreve o commit 
 * feito na branch, tornando o merge fast foward(necessario acessar branch nova pra realizar o comando)
-    -git rebase (main ou otra branch que ira receber)
-    -git rebase --continue". continua o rebase depois da resolução do conflito
-    -git rebase --skip". pula o rabase sem a resolução do conflito
-    -git rebase --abort". cancela o rebase feito
+* git rebase (main ou otra branch que ira receber)
+* git rebase --continue". continua o rebase depois da resolução do conflito
+* git rebase --skip". pula o rabase sem a resolução do conflito
+* git rebase --abort". cancela o rebase feito
 
