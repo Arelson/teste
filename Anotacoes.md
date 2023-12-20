@@ -1,9 +1,9 @@
-Inicializa o git na pasta
+## Inicializa o git na pasta
 -git init 
 
-inicia as configuração do git
--git config * +:
-    Niveis de atuação da configuração
+## inicia as configuração do git
+- git config * +:
+### Niveis de atuação da configuração
     * --system = afeta todos os compuatdores
     * --global = afeta para mim e todos os meus projetos
     * --local = afeta apenas no projeto atuas e usuarios do projeto
@@ -74,3 +74,4 @@ feito na branch, tornando o merge fast foward(necessario acessar branch nova pra
 -git rebase --continue". continua o rebase depois da resolução do conflito
 -git rebase --skip". pula o rabase sem a resolução do conflito
 -git rebase --abort". cancela o rebase feito
+
